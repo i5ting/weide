@@ -9,7 +9,7 @@ argv.shift();
 var file_path = __dirname;
 var current_path = process.cwd();
 
-var home = '/Applications/微信web开发者工具0.9.app/'
+var home = '/Applications/微信web开发者工具.app/'
 
 
 if(undefined !== process.env.WECHAT_IDE) {
