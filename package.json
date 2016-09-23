@@ -7,7 +7,8 @@
   "bin": {
     "weide": "index.js",
     "allb": "allb.js",
-    "crack": "crack.js"
+    "crack": "crack.js",
+    "openw": "openw.js"
   },
   "scripts": {
     "update": "git submodule update --recursive",

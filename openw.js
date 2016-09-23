@@ -17,17 +17,11 @@ if(undefined !== process.env.WECHAT_IDE) {
 }
 
 
-function _cp (src, dest) {
-  debug('FROM ' + src)
-  debug('TO ' + dest)
-  
-  fs.createReadStream(src).pipe(fs.createWriteStream(dest))
-}
-
-
-var src =  __dirname + '/asset/package.json'
-var dest =  home + 'Contents/Resources/app.nw/package.json'
-
-_cp (src, dest)
-
-console.log('complete!')
+var exec = require('child_process').exec;
+exec('open ' + home, function(error, stdout, stderr) {
+    console.log('stdout: ' + stdout);
+    console.log('stderr: ' + stderr);
+    if (error !== null) {
+        console.log('exec error: ' + error);
+    }
+});
