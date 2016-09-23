@@ -28,6 +28,14 @@ $ export WECHAT_IDE=/Applications/微信web开发者工具0.9.app/
 $ weide
 ```
 
+## 一键美化压缩js代码
+
+会读取默认安装位置，或环境变量里的WECHAT_IDE下的所有js都会梅花
+
+```
+$ allb
+```
+
 ## 调试
 
 ```

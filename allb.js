@@ -1,14 +1,19 @@
+#!/usr/bin/env node
+
 var beautify = require('js-beautify').js_beautify;
 var fs = require('fs');
 var path = require('path');
 var dirw = require('dirw');
 
+var home = '/Applications/微信web开发者工具.app/'
 
-var src = './Contents'
+if(undefined !== process.env.WECHAT_IDE) {
+  home = process.env.WECHAT_IDE + '/'
+}
 
 var dirw = require('dirw');
 
-dirw.walk(src, 0, handleFile);
+dirw.walk(home, 0, handleFile);
 
 function handleFile(file_path, floor) {
 
