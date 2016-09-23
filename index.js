@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var fs = require('fs')
+var debug = require('debug')('weide')
 
 var argv = process.argv;
 argv.shift();
@@ -26,9 +27,9 @@ function cp (src, dest) {
 
 for (var k in c) {
   var src = file_path  + '/vendor/' + k;
-  console.log(src)
+  debug(src)
   
   var dest = home + 'Contents' +c[k]
   
-    console.log(dest)
+  debug(dest)
 }

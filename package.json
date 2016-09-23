@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/i5ting/weide/issues"
   },
-  "homepage": "https://github.com/i5ting/weide#readme"
+  "homepage": "https://github.com/i5ting/weide#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
 }
