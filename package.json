@@ -1,6 +1,6 @@
 {
   "name": "weide",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "preferGlobal": "true",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "update": "git submodule update --recursive",
-    "cp":"rm -rf Contents  && cp -rf /Applications/微信web开发者工具0.9.app/Contents .",
+    "cp": "rm -rf Contents  && cp -rf /Applications/微信web开发者工具0.9.app/Contents .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
