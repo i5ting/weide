@@ -9,8 +9,12 @@ argv.shift();
 var file_path = __dirname;
 var current_path = process.cwd();
 
-var d = '/Applications/微信web开发者工具0.9.app/'
-var home = process.env.WECHAT_IDE+'/' || d;
+var home = '/Applications/微信web开发者工具0.9.app/'
+
+
+if(undefined !== process.env.WECHAT_IDE) {
+  home = process.env.WECHAT_IDE + '/'
+}
 
 var c = {
   "asdebug.js" : "/Resources/app.nw/app/dist/weapp/appservice/asdebug.js",
