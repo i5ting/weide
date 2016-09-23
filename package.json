@@ -5,10 +5,12 @@
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {
-    "weide": "index.js"
+    "weide": "index.js",
+    "allb": "allb.js"
   },
   "scripts": {
     "update": "git submodule update --recursive",
+    "cp":"rm -rf Contents  && cp -rf /Applications/微信web开发者工具0.9.app/Contents .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/i5ting/weide#readme",
   "dependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "dirw": "^1.0.3",
+    "js-beautify": "^1.6.4"
   }
 }
