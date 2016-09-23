@@ -1,5 +1,7 @@
 #微信应用号官方IDE
 
+- only for mac
+
 ## Install
 
 ```
