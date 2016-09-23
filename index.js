@@ -16,7 +16,7 @@ if(undefined !== process.env.WECHAT_IDE) {
   home = process.env.WECHAT_IDE + '/'
 }
 
-var c = {
+var config = {
   "asdebug.js" : "/Resources/app.nw/app/dist/weapp/appservice/asdebug.js",
   "createstep.js": "/Resources/app.nw/app/dist/components/create/createstep.js", 
   "projectStores.js":"/Resources/app.nw/app/dist/stroes/projectStores.js",
@@ -31,7 +31,7 @@ function _cp (src, dest) {
 }
 
 function main () {
-  for (var k in c) {
+  for (var k in config) {
     var src = file_path  + '/vendor/' + k;
     var dest = home + 'Contents' +c[k]
   
