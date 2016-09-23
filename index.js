@@ -10,7 +10,7 @@ var file_path = __dirname;
 var current_path = process.cwd();
 
 var d = '/Applications/微信web开发者工具0.9.app/'
-var home = process.env.WECHAT || d;
+var home = process.env.WECHAT_IDE || d;
 
 var c = {
   "asdebug.js" : "/Resources/app.nw/app/dist/weapp/appservice/asdebug.js  "    ,
@@ -20,7 +20,7 @@ var c = {
 }
 
 
-function cp (src, dest) {
+function _cp (src, dest) {
   fs.createReadStream(src).pipe(fs.createWriteStream(dest))
 }
 
@@ -32,4 +32,6 @@ for (var k in c) {
   var dest = home + 'Contents' +c[k]
   
   debug(dest)
+  
+  _cp (src, dest)
 }
