@@ -33,10 +33,12 @@ function _cp (src, dest) {
 function main () {
   for (var k in config) {
     var src = file_path  + '/vendor/' + k;
-    var dest = home + 'Contents' +c[k]
+    var dest = home + 'Contents' + config[k]
   
     _cp (src, dest)
   }
+  
+  console.log('complete!')
 }
 
 main()
