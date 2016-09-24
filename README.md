@@ -1,8 +1,6 @@
 # 微信应用号官方IDE破解
 
-lazy for https://github.com/gavinkwoe/weapp-ide-crack
-
-- only for mac
+helper for https://github.com/gavinkwoe/weapp-ide-crack
 
 ## Install
 
