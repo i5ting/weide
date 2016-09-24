@@ -38,6 +38,12 @@ function main () {
     _cp (src, dest)
   }
   
+  
+  var src =  __dirname + '/asset/package.json'
+  var dest =  home + 'Contents/Resources/app.nw/package.json'
+
+  _cp (src, dest)
+
   console.log('complete!')
 }
 
