@@ -1,7 +1,7 @@
 {
   "name": "weide",
   "version": "1.0.5",
-  "description": "",
+  "description": "微信【应用号】IDE + 破解",
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {
@@ -11,7 +11,7 @@
     "openw": "openw.js"
   },
   "scripts": {
-    "update": "git submodule update --recursive",
+    "update": "git submodule update --remote",
     "cp": "rm -rf Contents  && cp -rf /Applications/微信web开发者工具0.9.app/Contents .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,14 @@
     "type": "git",
     "url": "git+https://github.com/i5ting/weide.git"
   },
-  "keywords": [],
+  "keywords": [
+    "weixin",
+    "wechat",
+    "weapp",
+    "wxa",
+    "ide",
+    "crack"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
