@@ -21,10 +21,21 @@ $ weide
 
 否则需要配置环境变量
 
+
+mac
+
 ```
 $ export WECHAT_IDE=/Applications/微信web开发者工具0.9.app/
 $ weide
 ```
+
+windows cmd
+
+```
+$ set WECHAT_IDE=/Applications/微信web开发者工具0.9.app/
+$ weide
+```
+
 
 ## 一键美化压缩js代码
 
