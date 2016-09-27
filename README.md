@@ -1,4 +1,4 @@
-# 微信应用号官方IDE破解
+# 微信应用号官方IDE破解助手
 
 helper for https://github.com/gavinkwoe/weapp-ide-crack
 
@@ -36,6 +36,13 @@ $ set WECHAT_IDE=/Applications/微信web开发者工具0.9.app/
 $ weide
 ```
 
+## 禁用自动升级
+
+```
+$ wecrack
+```
+
+会修改Contents/Resources/app.nw/package.json的版本号，避免自动升级
 
 ## 一键美化压缩js代码
 
