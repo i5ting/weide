@@ -19,8 +19,8 @@ if(undefined !== process.env.WECHAT_IDE) {
 var config = {
   "asdebug.js" : "/Resources/app.nw/app/dist/weapp/appservice/asdebug.js",
   "createstep.js": "/Resources/app.nw/app/dist/components/create/createstep.js", 
-  "projectStores.js":"/Resources/app.nw/app/dist/stroes/projectStores.js",
-  "windowStores.js": "/Resources/app.nw/app/dist/stroes/windowStores.js" 
+  "projectStores.js":"/Resources/app.nw/app/dist/stroes/projectStores.js"
+  // "windowStores.js": "/Resources/app.nw/app/dist/stroes/windowStores.js" 
 }
 
 function _cp (src, dest) {
