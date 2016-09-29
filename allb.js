@@ -34,7 +34,7 @@ function _beautify(file_path) {
         console.log('js file= ' + err)
           throw err;
       }
-      if (/json-stringify-safe/.test(file_path)) {
+      if (/node_modules/.test(file_path)) {
         console.log('stringify')
         return
       }
