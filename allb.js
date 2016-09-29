@@ -34,7 +34,11 @@ function _beautify(file_path) {
         console.log('js file= ' + err)
           throw err;
       }
-      console.log(beautify(data, { indent_size: 2 }));
+      if (/json-stringify-safe/.test(file_path)) {
+        console.log('stringify')
+        return
+      }
+      // console.log(beautify(data, { indent_size: 2 }));
     
       var new_data = beautify(data, { indent_size: 2 })
     
