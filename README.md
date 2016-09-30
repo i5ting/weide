@@ -25,7 +25,7 @@ $ weide
 mac
 
 ```
-$ export WECHAT_IDE=/Applications/微信web开发者工具0.9.app/
+$ export WECHAT_IDE=/Applications/wechatwebdevtools.app/
 $ weide
 ```
 
